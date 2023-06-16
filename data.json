@@ -1,0 +1,76 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Web Development",
+      "image": "https://images.pexels.com/photos/4974913/pexels-photo-4974913.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description":"we are actively developing web applicants for our costumers."
+    },
+    {
+      "id": 2,
+      "title": "Web Design",
+      "image": "https://images.pexels.com/photos/3987066/pexels-photo-3987066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description":"we are actively developing web applicants for our costumers."
+    },
+    {
+      "id": 3,
+      "title": "Maintainance",
+      "image": "https://images.pexels.com/photos/7114/laptop-mobile.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description":"we are actively developing web applicants for our costumers."
+    },
+    {
+      "id": 4,
+      "title": "Hosting",
+      "image": "https://images.pexels.com/photos/4974907/pexels-photo-4974907.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description":"we are actively developing web applicants for our costumers."
+    },
+    {
+      "id": 5,
+      "title": "Graphics Design",
+      "image": "https://images.pexels.com/photos/1181272/pexels-photo-1181272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description":"we are actively developing web applicants for our costumers."
+    },
+    {
+      "id": 6,
+      "title": "Testing and Debugging",
+      "image": "https://images.pexels.com/photos/5829726/pexels-photo-5829726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description":"we are actively developing web applicants for our costumers."
+    },
+    {
+      "id": 7,
+      "title": "Web Development",
+      "image": "https://images.pexels.com/photos/4974913/pexels-photo-4974913.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description":"we are actively developing web applicants for our costumers."
+    },
+    {
+      "id": 8,
+      "title": "Web Design",
+      "image": "https://images.pexels.com/photos/3987066/pexels-photo-3987066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description":"we are actively developing web applicants for our costumers."
+    },
+    {
+      "id": 9,
+      "title": "Maintainance",
+      "image": "https://images.pexels.com/photos/7114/laptop-mobile.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description":"we are actively developing web applicants for our costumers."
+    },
+    {
+      "id": 10,
+      "title": "Hosting",
+      "image": "https://images.pexels.com/photos/4974907/pexels-photo-4974907.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description":"we are actively developing web applicants for our costumers."
+    },
+    {
+      "id": 11,
+      "title": "Graphics Design",
+      "image": "https://images.pexels.com/photos/1181272/pexels-photo-1181272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description":"we are actively developing web applicants for our costumers."
+    },
+    {
+      "id": 12,
+      "title": "Testing and Debugging",
+      "image": "https://images.pexels.com/photos/5829726/pexels-photo-5829726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description":"we are actively developing web applicants for our costumers."
+    }
+  ]
+}
