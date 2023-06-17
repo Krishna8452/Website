@@ -4,29 +4,24 @@ import styled from 'styled-components'
 import { Button } from '../styles/Button';
 import { useGlobalContext } from '../context/Context';
 
-
 const HeroSection = () => {
-    const {name, image} = useGlobalContext();
+    const {name, image, description} = useGlobalContext();
+    console.log(name,'kdjfdfj')
   return (
     <Wrapper>
-        <div className='container grid grid-two-column'>
-            <div className="section-hero-data" data-aos="fade-up"
-            data-aos-duration="3000">
-                <p className='hero-top-data'>THIS IS ME</p>
+        <div className='container grid grid-two-column' >
+            <div className="section-hero-data"  data-aos="fade-up" data-aos-duration="2000" >
+                <p className='hero-top-data' >THIS IS ME</p>
                 <h1 className='hero-heading'>{name}</h1>
-                <p className='hero-para data-aos= fade-right"' >
-                    I'm Krishna Chaudhary. A Web Developer.
-                    I'm {name} Chaudhary. A Web Developer. 
-                    I'm Krishna Chaudhary. A Web Developer.
-                    I'm Krishna Chaudhary. A Web Developer.
+                <p className='hero-para' >
+                {description}
                 </p>
                 <Button className="btn hireme-btn">
                     <NavLink to="/contact">Contact us</NavLink>
                 </Button>
             </div>
-            
-            <div className='section-hero-image' data-aos="fade-down"
-     data-aos-duration="3000">
+
+            <div className='section-hero-image' data-aos="fade-down" data-aos-duration="2000">
                 <picture>
                  <img src={image} alt='hero-image' className='hero-img'/>
                 </picture>

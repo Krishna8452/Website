@@ -6,6 +6,7 @@ const AppContext = React.createContext();
 const initialState = {
   name: "",
   image: "",
+  description:"",
   services:[],
 };
 
@@ -18,8 +19,9 @@ const AppProvider = ({ children }) => {
     return dispatch({
       type: "HOME_UPDATE",
       payload: {
-        name: "Krishna Chaudhary",
+        name: "Krimson Technology Pvt. Ltd",
         image: "./images/hero.svg",
+        description:"Krimson Company is a leading technology conglomerate that has established itself as a powerhouse in the global market. With a relentless focus on innovation and cutting-edge solutions, the company has revolutionized industries such as artificial intelligence, cybersecurity, and advanced robotics.",
       },
     });
   };
@@ -27,8 +29,9 @@ const AppProvider = ({ children }) => {
     return dispatch({
       type: "ABOUT_UPDATE",
       payload: {
-        name: "Krimson Chaudhary",
+        name: "Krimson Tech ....",
         image: "./images/about1.svg",
+        description:" Krimson's diverse portfolio encompasses a wide range of products and services, catering to both enterprise clients and individual consumers. Their commitment to excellence is evident in their seamless integration of technology into everyday life, empowering individuals and businesses to thrive in the digital era.",
       },
     });
   };

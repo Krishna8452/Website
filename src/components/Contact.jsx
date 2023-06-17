@@ -51,7 +51,7 @@ const Contact = () => {
       ></iframe>
       <div className="container">
               
-        <div className="contact-form" data-aos="fade-down" >
+        <div className="contact-form" data-aos="fade-up" data-aos-duration="1000" >
           <form action="#" method="POST" className="contact-inputs">
             <input
               type="text"
@@ -82,7 +82,7 @@ const Contact = () => {
               >
                 
               </textarea>
-              <input type="submit" value="send"  data-aos="fade-up"  data-aos-duration="10000"></input>
+              <input type="submit" value="send"></input>
           </form>
         </div>
       </div>
