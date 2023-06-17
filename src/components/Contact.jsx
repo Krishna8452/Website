@@ -50,7 +50,8 @@ const Contact = () => {
      data-aos-duration="3000"
       ></iframe>
       <div className="container">
-        <div className="contact-form">
+              
+        <div className="contact-form" data-aos="fade-down" >
           <form action="#" method="POST" className="contact-inputs">
             <input
               type="text"
@@ -59,7 +60,7 @@ const Contact = () => {
               autoComplete="off"
               required
 
-              data-aos="fade-right"
+             
             />
             <input
               type="email"
@@ -68,7 +69,7 @@ const Contact = () => {
               autoComplete="off"
               required
 
-              data-aos="fade-left"
+            
             />
             <textarea 
               name="message"
@@ -77,12 +78,11 @@ const Contact = () => {
               rows={6}  
               autoComplete="off"
               required
-              
-              data-aos="fade-down"
+            
               >
                 
               </textarea>
-              <input type="submit" value="send"  data-aos="fade-up"></input>
+              <input type="submit" value="send"  data-aos="fade-up"  data-aos-duration="10000"></input>
           </form>
         </div>
       </div>

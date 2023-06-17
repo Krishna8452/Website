@@ -88,7 +88,8 @@ const Services = () => {
 
   return (
     <Wrapepr className="section">
-      <h2 className="common-heading">Our Services</h2>
+      <h2 className="common-heading" data-aos="fade-up"
+            data-aos-duration="1000">Our Services</h2>
       <div className="container grid grid-three-column"  data-aos="fade-up"
      data-aos-duration="3000">
         {services.map((list) => {
