@@ -19,7 +19,7 @@ const HeroSection = () => {
                     I'm Krishna Chaudhary. A Web Developer.
                 </p>
                 <Button className="btn hireme-btn">
-                    <NavLink to="/contact">hire me</NavLink>
+                    <NavLink to="/contact">Contact us</NavLink>
                 </Button>
             </div>
             
