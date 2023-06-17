@@ -25,7 +25,8 @@ const HeroSection = () => {
                 </Button>
             </div>
             
-            <div className='section-hero-image' data-aos="fade-left">
+            <div className='section-hero-image' data-aos="fade-down"
+     data-aos-duration="3000">
                 <picture>
                  <img src={image} alt='hero-image' className='hero-img'/>
                 </picture>

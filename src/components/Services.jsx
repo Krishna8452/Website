@@ -94,8 +94,8 @@ const Services = () => {
         {services.map((list) => {
           const { id, title, image, description } = list;
           return (
-            <div key={id} className="card"    data-aos="fade-up"
-            data-aos-duration="3000">
+            <div key={id} className="card" data-aos="fade-up"
+            data-aos-duration="1000">
               <figure>
                 <img src={image} alt={title} />
               </figure>
