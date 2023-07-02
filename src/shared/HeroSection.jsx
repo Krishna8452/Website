@@ -10,7 +10,7 @@ const HeroSection = () => {
   return (
     <Wrapper>
         <div className='container grid grid-two-column' >
-            <div className="section-hero-data"  data-aos="fade-right" data-aos-duration="2000" >
+            <div className="section-hero-data"  data-aos="fade-right" data-aos-duration="1000" >
                 <p className='hero-top-data' >THIS IS ME</p>
                 <h1 className='hero-heading'>{name}</h1>
                 <p className='hero-para' >
@@ -21,7 +21,7 @@ const HeroSection = () => {
                 </Button>
             </div>
 
-            <div className='section-hero-image' data-aos="fade-left" data-aos-duration="2000">
+            <div className='section-hero-image' data-aos="fade-left" data-aos-duration="1000">
                 <picture>
                  <img src={image} alt='hero-image' className='hero-img'/>
                 </picture>

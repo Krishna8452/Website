@@ -20,9 +20,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 
-
 .logo{
-   display:flex;
+   display:inline ;
    justify-content:center;
    align-items:center;
    max-width:15%;

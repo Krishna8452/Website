@@ -89,14 +89,14 @@ const Services = () => {
   return (
     <Wrapepr className="section">
       <h2 className="common-heading" data-aos="fade-up"
-            data-aos-duration="1000">Our Services</h2>
+            data-aos-duration="2000">Our Services</h2>
       <div className="container grid grid-three-column"  data-aos="fade-up"
      >
         {services.map((list) => {
           const { id, title, image, description } = list;
           return (
             <div key={id} className="card" data-aos="fade-up"
-            data-aos-duration="1000">
+            data-aos-duration="2000">
               <figure>
                 <img src={image} alt={title} />
               </figure>
