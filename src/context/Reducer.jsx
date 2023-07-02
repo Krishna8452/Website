@@ -6,7 +6,6 @@ if(action.type==="HOME_UPDATE"){
         name:action.payload.name,
         image:action.payload.image,
         description:action.payload.description,  
-
     };
 }
 

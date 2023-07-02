@@ -10,7 +10,7 @@ const About = () => {
   useEffect(()=> updateAboutPage(), []);
 
   return (
-    <HeroSection/>
+    <HeroSection />
   )
 }
 

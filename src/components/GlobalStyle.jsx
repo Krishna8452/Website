@@ -8,7 +8,7 @@ export const GlobalStyle = createGlobalStyle`
   font-family: 'Work Sans', sans-serif;
  }
 html {
-  font-size: 62.5%;
+  font-size:50%;
   /* scroll-behavior: smooth; */
   /* 1rem = 10px */
   overflow-x: hidden;

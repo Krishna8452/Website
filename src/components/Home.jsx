@@ -11,7 +11,7 @@ const Home = () => {
   useEffect(()=> updateHomePage(), [])
   
   return (<>
-<HeroSection/>
+<HeroSection />
 <Services /> 
 <Contact />
 </> 
