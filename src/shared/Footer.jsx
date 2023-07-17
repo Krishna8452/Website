@@ -39,6 +39,7 @@ const Footer = () => {
               />
 
               <input
+                className="input"
                 type="submit"
                 value="Subscribe"
                 autoComplete="off"
@@ -111,6 +112,7 @@ const Wrapper = styled.section`
     padding: 5rem 10rem;
     background-color: ${({ theme }) => theme.colors.bg};
     border-radius: 1rem;
+    border:1px solid rgb(22, 56, 107);
     box-shadow: ${({ theme }) => theme.colors.shadowSupport};
     transform: translateY(50%);
   }
@@ -120,7 +122,11 @@ const Wrapper = styled.section`
   }
   footer {
     padding: 14rem 0 9rem 0;
-    background-color: ${({ theme }) => theme.colors.footer_bg};
+    background-color: ${({ theme }) => theme.colors.btn};
+
+    .footer-subscribe {
+      
+    }
     h3 {
       color: ${({ theme }) => theme.colors.hr};
       margin-bottom: 2.4rem;
@@ -131,6 +137,8 @@ const Wrapper = styled.section`
     .footer-social--icons {
       display: flex;
       gap: 2rem;
+      justify-content:center;
+      align-item:center;
       div {
         padding: 1rem;
         border-radius: 50%;

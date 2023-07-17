@@ -41,15 +41,14 @@ align-items:center;
 
 .top-btn{
     font-size:2.4rem;
-    width:5rem;
-    height:5rem;
+    width:3.5rem;
+    height:3.5rem;
     color:#fff;
     background-color: ${({theme})=>theme.colors.btn};
     box-shadow: ${({theme})=>theme.colors.shadow};
-    border-radius:50%;
     position:fixed;
-    bottom: 5rem;
-    right: 5rem;
+    bottom: 6rem;
+    right: 4rem;
     z-index:999;
     display:flex;
     justify-content:center;
@@ -58,6 +57,7 @@ align-items:center;
 
     &--icon {
         animation: gototop 1.2s linear infinite alternate-reverse;
+       
     }
     
     @keyframes gototop{

@@ -21,13 +21,13 @@ const Navbar = () => {
           text-decoration: none;
           font-size: 1.8rem;
           text-transform: uppercase;
-          color: ${({ theme }) => theme.colors.black};
+          color: white;
           transition: color 0.3s linear;
         }
 
         &:hover,
-        &:active {
-          color: ${({ theme }) => theme.colors.helper};
+        &:active{
+          color: rgb(27, 68, 130);
         }
       }
     }
@@ -45,7 +45,7 @@ const Navbar = () => {
     display: none;
   }
 
-  @media (max-width: ${({ theme }) => theme.media.mobile}) {
+  @media(max-width: ${({ theme }) => theme.media.mobile}) {
     .mobile-navbar-btn {
       display: inline-block;
       z-index: 999;
@@ -53,7 +53,7 @@ const Navbar = () => {
 
       .mobile-nav-icon {
         font-size: 4.2rem;
-        color: ${({ theme }) => theme.colors.black};
+        color:white;
       }
     }
 
@@ -64,7 +64,7 @@ const Navbar = () => {
       position: fixed;
       top: 0;
       left: 0;
-      background-color: #fff;
+      background-color:#e3f1fa;
 
       display: flex;
       justify-content: center;
@@ -81,12 +81,13 @@ const Navbar = () => {
         .navbar-link {
           &:link,
           &:visited {
+            color:rgb(22, 56, 107);
             font-size: 4.2rem;
           }
 
           &:hover,
           &:active {
-            color: ${({ theme }) => theme.colors.helper};
+            color: ${({ theme }) => theme.colors.black};
           }
         }
       }
@@ -98,7 +99,7 @@ const Navbar = () => {
       position: fixed;
       top: 3%;
       right: 10%;
-      color: ${({ theme }) => theme.colors.black};
+      color: rgb(36, 93, 179);
       z-index: 9999;
     }
 

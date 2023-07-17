@@ -15,24 +15,24 @@ html {
 }
 
 body {
+  background-color:#e3f1fa;
   overflow-x: hidden;
   scrollbar-color: rgb(98 84 243);
     scrollbar-width: thin;
 }
 
 body::-webkit-scrollbar {
-  width: 1.5rem;
+  width: 2rem;
 }
 
 body::-webkit-scrollbar-track {
-   background-color: rgb(24 24 29);
+   background-color: white;
 }
 
 body::-webkit-scrollbar-thumb {
  
-  background: #fff;
+  background: #DBDFEA;
     border: 5px solid transparent;
-    border-radius: 9px;
     background-clip: content-box;
 }
 
@@ -54,15 +54,17 @@ h2 {
   h3 {
   font-size: 1.8rem;
   font-weight: 400;
+  text-align:center;
 }
 
 p {
   color: ${({ theme }) => theme.colors.text};
-  opacity: .7;
+  opacity: 1;
   font-size: 1.65rem;
   line-height: 1.5;
   margin-top: 1rem;
   font-weight:400;
+  text-align:center;
 }
 
 a {
@@ -100,14 +102,16 @@ li {
       font-weight: 600;
       margin-bottom: 6rem;
       text-transform: capitalize;
+      color:rgb(22, 56, 107);
     }
 
     input, textarea{
     max-width: 50rem;
     color: ${({ theme }) => theme.colors.black};
     padding: 1.6rem 2.4rem;
-    border: 1px solid ${({ theme }) => theme.colors.border};
+    border: 1px solid rgb(41, 95, 179);
     text-transform: uppercase;
+    background-color: #e3f1fa;
     box-shadow: ${({ theme }) => theme.colors.shadowSupport};
 }
     input[type="submit"]{
@@ -155,6 +159,9 @@ li {
 
       .grid-two-column, .grid-three-column, .grid-four-column{
         grid-template-columns: 1fr;
+      }
+      .common-heading{
+        padding:1.5rem;
       }
 }
 

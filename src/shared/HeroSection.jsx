@@ -16,8 +16,8 @@ const HeroSection = () => {
                 <p className='hero-para' >
                 {description}
                 </p>
-                <Button className="btn hireme-btn">
-                    <NavLink to="/contact">Contact us</NavLink>
+                <Button className="btn">
+                    <NavLink to="/contact">contact us</NavLink>
                 </Button>
             </div>
 
@@ -32,8 +32,9 @@ const HeroSection = () => {
 }
 
 const Wrapper = styled.section`
+margin-top: 3rem;
 padding: 9rem 0;
-
+background-color:#e3f1fa;
 .section-hero-data{
     display:flex;
     flex-direction:column;
@@ -46,11 +47,14 @@ padding: 9rem 0;
     text-transform:uppercase;
     font-weight:500;
     font-size:1.5rem;
-    color:${({theme})=>theme.colors.helper};
+    color:rgb(41, 95, 179);
 }
 .hero-heading {
+    margin-top:1rem;
     text-transform:uppercase;
+    color:rgb(22, 56, 107);
     font-size: 4rem;
+    text-align:center;
 
 }
 .hero-para {

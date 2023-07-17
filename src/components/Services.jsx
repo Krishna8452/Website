@@ -89,7 +89,7 @@ const Services = () => {
   return (
     <Wrapepr className="section">
       <h2 className="common-heading" data-aos="fade-up"
-            data-aos-duration="2000">Our Services</h2>
+      data-aos-duration="2000">Our Services</h2>
       <div className="container grid grid-three-column"  data-aos="fade-up"
      >
         {services.map((list) => {
@@ -117,13 +117,12 @@ const Services = () => {
 
 const Wrapepr = styled.section`
 padding: 9rem 0;
-background-color: ${({ theme }) => theme.colors.bg};
-
+background-color:#e3f1fa;
 .container {
   max-width: 120rem;
 }
 .card {
-  border: 0.1rem solid rgb(170 170 170 / 40%);
+  border: 1rem solid rgb(41, 94, 179 / 100%);
   .card-data {
     padding: 0 2rem;
   }
@@ -135,15 +134,15 @@ background-color: ${({ theme }) => theme.colors.bg};
   .btn {
     margin: 2rem auto;
     background-color: rgb(0 0 0 / 0%);
-    border: 0.1rem solid rgb(98 84 243);
+    border: 0.1rem solid rgb(41, 94, 179);
     display: flex;
     justify-content: center;
     align-items: center;
-    color:rgb(98 84 243);
+    color:rgb(41, 94, 179);
     font-size:1.4rem;
 
     &:hover {
-      background-color: rgb(98 84 243);
+      background-color: rgb(41, 94, 179);
       color: #fff;
     } 
   }
